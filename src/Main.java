@@ -4,7 +4,7 @@ public class Main {
         Plane plane = new Plane(100, 100, 100, 1000, 5);
 
         plane.flyStraight(50);
-        plane.flyUp(80, 90);
+        plane.flyUp(80, 9);
         plane.turnRight();
         plane.flyStraight(30);
         plane.dropBombs(2);
