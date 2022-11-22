@@ -3,7 +3,7 @@ public class Main {
 // В (0;0) с fuel = 100
         Plane plane = new Plane(100, 100, 100, 1000, 5);
 
-        plane.flyStraight(50);
+        plane.flyStraight(500);
         plane.flyUp(80, 9);
         plane.turnRight();
         plane.flyStraight(30);
